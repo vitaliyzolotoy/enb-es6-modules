@@ -1,0 +1,30 @@
+{
+  "name": "enb-es6-modules",
+  "version": "0.1.0",
+  "description": "enb es6 modules tech",
+  "keywords": [
+    "enb",
+    "es6",
+    "modules"
+  ],
+  "author": {
+    "name": "Vitaly Zolotoy",
+    "email": "vitaliyzolotoy@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zolotoy/enb-es6-modules.git"
+  },
+  "dependencies": {
+    "vow": "0.4.11",
+    "vow-fs": "0.3.4",
+    "concat-with-sourcemaps": "1.0.4",
+    "es6-micro-loader": "0.2.1",
+    "es6-module-transpiler": "0.10.0",
+    "es6-module-transpiler-system-formatter": "0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
