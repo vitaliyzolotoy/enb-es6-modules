@@ -1,6 +1,6 @@
 {
   "name": "enb-es6-modules",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "enb es6 modules tech",
   "keywords": [
     "enb",
@@ -20,6 +20,8 @@
     "es6-micro-loader": "^0.2.1",
     "es6-module-transpiler": "^0.10.0",
     "es6-module-transpiler-system-formatter": "^0.3.0",
+    "vow": "^0.4.9",
+    "vow-fs": "^0.3.4",
     "concat-with-sourcemaps": "^1.0.2"
   },
   "scripts": {
