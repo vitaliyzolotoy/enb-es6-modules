@@ -5,7 +5,8 @@
   "keywords": [
     "enb",
     "es6",
-    "modules"
+    "modules",
+    "systemjs"
   ],
   "author": {
     "name": "Vitaly Zolotoy",
@@ -16,12 +17,10 @@
     "url": "git+ssh://git@github.com/zolotoy/enb-es6-modules.git"
   },
   "dependencies": {
-    "vow": "0.4.11",
-    "vow-fs": "0.3.4",
-    "concat-with-sourcemaps": "1.0.4",
-    "es6-micro-loader": "0.2.1",
-    "es6-module-transpiler": "0.10.0",
-    "es6-module-transpiler-system-formatter": "0.3.0"
+    "es6-micro-loader": "^0.2.1",
+    "es6-module-transpiler": "^0.10.0",
+    "es6-module-transpiler-system-formatter": "^0.3.0",
+    "concat-with-sourcemaps": "^1.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

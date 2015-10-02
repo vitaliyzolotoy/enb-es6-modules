@@ -23,6 +23,8 @@ module.exports = require('enb/lib/build-flow').create()
         });
 
         if (resolvers.length > 0) {
+            console.log(new FileResolver(resolvers));
+
             var container = new Container({
                 resolvers: [new FileResolver(resolvers)],
                 formatter: new SystemFormatter()
